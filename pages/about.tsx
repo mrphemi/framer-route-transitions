@@ -2,9 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 
 import LayoutWithTransition from "@/components/LayoutWithTransition";
-import Maldives from "@/public/maldives.jpg";
+import Beach from "@/public/beach.jpg";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -16,10 +16,8 @@ export default function Home() {
       <LayoutWithTransition>
         <main className="h-screen flex items-center">
           <header className="max-w-5xl mx-auto space-y-10">
-            <Image src={Maldives} alt="maldives" className="w-1/2" />
-            <h1 className="text-6xl font-bold max-w-3xl">
-              Route Transitions With Next JS
-            </h1>
+            <Image src={Beach} alt="beach" className="w-1/2" />
+            <h1 className="text-6xl font-bold max-w-3xl">About Page</h1>
             <p className="text-xl max-w-2xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum optio totam voluptate nam repudiandae magni voluptas
